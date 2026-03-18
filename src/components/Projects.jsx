@@ -14,23 +14,23 @@ const inProgress = [
     platforms: ['iOS', 'Android'],
     status: 'In Development',
   },
-  {
-    name: 'BirdCam',
-    description: 'Edge AI system for real-time bird species identification, from Raspberry Pi to web dashboard.',
-    platforms: ['Raspberry Pi', 'ASP.NET', 'Blazor'],
-    status: 'Portfolio Project',
-  },
 ]
 
 const pastProjects = [
   {
     name: 'Stoic Banner',
     description: 'Daily Stoic quotes for your browser and home screen.',
-    platforms: ['iOS'],
+    platforms: ['iOS', 'Chrome'],
     image: stoicImg,
     links: [
       { label: 'App Store', href: 'https://apps.apple.com/us/app/stoic-banner/id6760270893' },
     ],
+  },
+  {
+    name: 'BirdCam',
+    description: 'Edge AI system for real-time bird species identification, from Raspberry Pi to web dashboard.',
+    platforms: ['Raspberry Pi', 'ASP.NET', 'Blazor'],
+    status: 'Portfolio Project',
   },
   {
     name: 'Automated Greenhouse',

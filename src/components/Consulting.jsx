@@ -9,7 +9,8 @@ export default function Consulting() {
           After five years building real-time software for autonomous underwater vehicles at NAVSEA,
           I left to build on my own terms. Spencer Studios takes on mobile, IoT, and systems
           projects for small teams who need focused technical help — without the overhead of a
-          large firm.
+          large firm. Engagements are typically short-term and scoped: a specific problem, a focused
+          build, a team that needs a capable extra hand.
         </p>
         <a href="#contact" className="btn btn-terracotta">Get In Touch</a>
       </div>

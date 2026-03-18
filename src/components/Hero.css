@@ -1,10 +1,10 @@
 .hero {
-  min-height: 100svh;
+  height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
-  padding: 96px 40px 64px;
+  padding: 0 40px;
 }
 
 .hero-inner {
@@ -86,13 +86,14 @@
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center 30%;
-  border-radius: 3px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   display: block;
 }
 
 @media (max-width: 768px) {
   .hero {
-    padding: 96px 24px 56px;
+    padding: 0 24px;
   }
 
   .hero-inner {
