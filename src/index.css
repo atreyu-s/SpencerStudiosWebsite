@@ -14,14 +14,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--color-text);
-  background: linear-gradient(
-    180deg,
-    #1B2A4A 0%,
-    #2E5F7A 30%,
-    #4A8FA8 50%,
-    #2E5F7A 70%,
-    #1B2A4A 100%
-  ) fixed;
+  background: #1B2A4A;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,6 +22,7 @@ body {
 #root {
   width: 100%;
   min-height: 100svh;
+  background: linear-gradient(180deg, #4A8FA8 0%, #2E5F7A 35%, #1F3D5C 65%, #1B2A4A 100%);
 }
 
 h1, h2, h3 {
