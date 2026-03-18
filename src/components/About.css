@@ -37,6 +37,6 @@
 
 @media (max-width: 768px) {
   .about {
-    padding: 72px 24px;
+    padding: 96px 24px 72px;
   }
 }

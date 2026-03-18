@@ -108,6 +108,10 @@
     padding-top: 64px;
   }
 
+  .hero-photo {
+    aspect-ratio: 1 / 1;
+  }
+
   .hero-ctas {
     justify-content: center;
   }
