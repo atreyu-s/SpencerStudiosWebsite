@@ -23,17 +23,20 @@
 }
 
 .hero-wordmark {
-  font-size: clamp(2.75rem, 6vw, 5rem);
+  font-size: clamp(3.5rem, 7vw, 5.5rem);
   font-weight: 500;
   color: var(--color-ivory);
   letter-spacing: 0.01em;
 }
 
 .hero-tagline {
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: 0.75rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
   color: var(--color-sand);
-  opacity: 0.85;
-  letter-spacing: 0.01em;
+  opacity: 0.75;
 }
 
 .hero-ctas {
@@ -87,6 +90,7 @@
   object-fit: cover;
   object-position: center 30%;
   border-radius: 10px;
+  border: 1.5px solid rgba(196, 98, 45, 0.35);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   display: block;
 }

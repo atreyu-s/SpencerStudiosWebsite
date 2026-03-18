@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-inner">
         <div className="hero-text">
           <h1 className="hero-wordmark">Spencer Studios</h1>
-          <p className="hero-tagline">Independent software developer &amp; consultant</p>
+          <p className="hero-tagline">Independent software development &amp; consulting</p>
           <div className="hero-ctas">
             <a href="#projects" className="btn btn-primary">View My Work</a>
             <a href="#consulting" className="btn btn-outline">Work With Me</a>
