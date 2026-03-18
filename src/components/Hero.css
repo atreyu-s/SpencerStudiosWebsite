@@ -103,7 +103,12 @@
   }
 
   .hero-photo-wrap {
-    width: 200px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hero-photo-wrap .hero-photo {
+    aspect-ratio: 1 / 1;
   }
 
   .hero-ctas {
