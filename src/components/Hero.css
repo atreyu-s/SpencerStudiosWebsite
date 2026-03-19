@@ -1,5 +1,5 @@
 .hero {
-  height: 100svh;
+  height: calc(100svh - var(--nav-height));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +99,10 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 0 24px;
+    height: auto;
+    min-height: calc(100svh - var(--nav-height));
+    align-items: flex-start;
+    padding: 88px 24px 60px;
   }
 
   .hero-inner {
@@ -109,8 +112,7 @@
 
   .hero-photo-wrap {
     width: 100%;
-    max-width: 320px;
-    padding-top: 64px;
+    max-width: 256px;
   }
 
   .hero-photo {
