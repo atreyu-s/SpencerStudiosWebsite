@@ -1,16 +1,46 @@
-# React + Vite
+# Spencer Studios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio and consulting site for Spencer Studios — independent software development based in Warren, Rhode Island.
 
-Currently, two official plugins are available:
+Live at [spencerstudiosdev.com](https://spencerstudiosdev.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- **Vite + React** — SPA, no router
+- **Plain CSS** — custom properties, per-component stylesheets
+- **Google Fonts** — Cormorant Garamond (headings), Inter (body)
+- **Formspree** — contact form backend
+- **Cloudflare Pages** — hosting and DNS, auto-deployed from GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Structure
 
-## Expanding the ESLint configuration
+```
+src/
+  tokens.css          # Design tokens (colors, nav height)
+  index.css           # Global reset and typography
+  App.jsx / App.css   # Root layout
+  components/
+    Nav               # Fixed top nav with mobile hamburger
+    Hero              # Full-viewport landing with photo
+    About             # Bio section
+    Projects          # In-progress and past project cards
+    Consulting        # Services and CTA
+    Contact           # Formspree form and social links
+  assets/
+    profile.jpg       # Hero photo
+    stoic.png         # Stoic Banner app icon
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+Push to `main` — Cloudflare Pages builds automatically.
+
+- Build command: `npm run build`
+- Output directory: `dist`
