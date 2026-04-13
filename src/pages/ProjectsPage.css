@@ -212,7 +212,7 @@
 
 @media (max-width: 600px) {
   .projects-page {
-    padding: 48px 24px;
+    padding: calc(var(--nav-height) + 32px) 24px 48px;
   }
 
   .partner-card {
