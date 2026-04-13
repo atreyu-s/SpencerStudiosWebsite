@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="hero" className="hero">
       <div className="hero-inner">
         <div className="hero-text">
-          <h1 className="hero-wordmark">Spencer Studios</h1>
+          <h1 className="hero-wordmark">Spencer Studios LLC</h1>
           <p className="hero-tagline">Independent software development &amp; consulting</p>
           <div className="hero-ctas">
             <a href="#projects" className="btn btn-primary">View My Work</a>

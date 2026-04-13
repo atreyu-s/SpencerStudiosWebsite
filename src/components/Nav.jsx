@@ -6,7 +6,7 @@ export default function Nav() {
 
   return (
     <nav className="nav">
-      <a href="#hero" className="nav-logo">Spencer Studios</a>
+      <a href="#hero" className="nav-logo">Spencer Studios LLC</a>
 
       <button
         className={`nav-hamburger${open ? ' nav-hamburger--open' : ''}`}
