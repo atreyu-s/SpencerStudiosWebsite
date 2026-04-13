@@ -98,7 +98,7 @@
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .hero {
     height: auto;
     min-height: calc(100svh - var(--nav-height));
