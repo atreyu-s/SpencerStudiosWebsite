@@ -7,7 +7,7 @@ export default function Consulting() {
         <h2 className="section-title">Consulting</h2>
         <p className="consulting-body">
           After five years building real-time software for autonomous underwater vehicles at NAVSEA,
-          I left to build on my own terms. Spencer Studios takes on mobile, IoT, and systems
+          I left to build on my own terms. Spencer Studios takes on mobile, web, and systems
           projects for small teams who need focused technical help - without the overhead of a
           large firm. Engagements are typically short-term and scoped: a specific problem, a focused
           build, a team that needs a capable extra hand.

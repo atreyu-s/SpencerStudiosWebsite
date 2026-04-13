@@ -19,7 +19,7 @@ export default function About() {
             tool for bartenders; RepVault, a workout logging app built around training data
             visualization; and AI Impact Index, a research and publishing platform documenting the
             real environmental and social costs of artificial intelligence. It also means consulting:
-            I take on embedded systems, IoT, and mobile projects for small teams who need focused
+            I take on mobile, web, and systems projects for small teams who need focused
             technical help without the overhead of a large firm.
           </p>
           <p>
