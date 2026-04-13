@@ -4,7 +4,7 @@ import stoicImg from '../assets/stoic.png'
 
 const inProgress = [
   {
-    name: 'Barback',
+    name: 'Barback Pro',
     description: 'Professional cocktail reference for bartenders.',
     platforms: ['iOS', 'Android'],
     status: 'In Development',

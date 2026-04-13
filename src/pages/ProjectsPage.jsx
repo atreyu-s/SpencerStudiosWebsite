@@ -4,12 +4,13 @@ import './ProjectsPage.css'
 
 const projects = [
   {
-    name: 'Barback',
+    name: 'Barback Pro',
     status: 'In Development',
     platforms: ['iOS', 'Android'],
     description: [
-      'Barback is a professional cocktail reference tool built for working bartenders. The app gives bartenders instant access to a structured, searchable library of classic and contemporary recipes — organized the way a professional thinks, not a hobbyist.',
-      'The goal is a distraction-free tool that holds up behind the bar: fast lookup, clean presentation, and the depth a professional actually needs. No clutter, no social features — just reliable reference when it matters.',
+      'Barback Pro is a cocktail reference app built for anyone serious about what\'s in the glass. Whether you\'re a working bartender who needs fast, reliable lookup during service or a home enthusiast who wants to go deeper than the basics, Barback Pro gives you a structured, searchable library of classic and contemporary recipes - organized the way a drink professional thinks.',
+      'Smart scaling to glassware, substitution guidance, drink family organization, and technique notes give you the depth to make better drinks - behind the bar or at home.',
+      'No clutter. Just the reference you reach for when it matters.',
     ],
     partner: null,
   },
@@ -18,7 +19,7 @@ const projects = [
     status: 'In Development',
     platforms: ['iOS', 'Android'],
     description: [
-      'RepVault is a workout logging app built around training data — not just tracking sets and reps, but giving athletes a meaningful view of their progress over time. The app visualizes strength trends, running data, and volume across training cycles so athletes and coaches can make informed decisions instead of guessing.',
+      'RepVault is a workout logging app built around training data - not just tracking sets and reps, but giving athletes a meaningful view of their progress over time. The app visualizes strength trends, running data, and volume across training cycles so athletes and coaches can make informed decisions instead of guessing.',
       'The project is being developed in close collaboration with Billy Cavalieri - a personal trainer, performance enhancement specialist, and triathlete - to ensure the tool reflects how serious athletes and coaches actually think about training data.',
     ],
     partner: {

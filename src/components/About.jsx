@@ -15,7 +15,7 @@ export default function About() {
           <p>I left to build something of my own.</p>
           <p>
             Spencer Studios is my independent software studio, based out of Warren, Rhode Island.
-            Active projects span a few different spaces: Barback, a professional cocktail reference
+            Active projects span a few different spaces: Barback Pro, a professional cocktail reference
             tool for bartenders; RepVault, a workout logging app built around training data
             visualization; and AI Impact Index, a research and publishing platform documenting the
             real environmental and social costs of artificial intelligence. It also means consulting:

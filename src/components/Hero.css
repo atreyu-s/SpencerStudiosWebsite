@@ -102,7 +102,7 @@
   display: block;
 }
 
-/* small screen styling only — layout wraps automatically above */
+/* small screen styling only - layout wraps automatically above */
 @media (max-width: 560px) {
   .hero {
     padding: 48px 24px 60px;
