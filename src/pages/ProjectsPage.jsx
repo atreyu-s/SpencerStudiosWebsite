@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import billyImg from '../assets/billy.jpg'
 import './ProjectsPage.css'
 
@@ -102,6 +103,14 @@ function ProjectDetail({ project }) {
 }
 
 export default function ProjectsPage() {
+  const { hash } = useLocation()
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash.slice(1))
+      if (el) el.scrollIntoView({ behavior: 'smooth' })
+    }
+  }, [hash])
   return (
     <main className="projects-page">
       <div className="projects-page-inner">
