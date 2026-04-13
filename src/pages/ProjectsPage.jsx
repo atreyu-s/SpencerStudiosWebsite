@@ -19,7 +19,7 @@ const projects = [
     platforms: ['iOS', 'Android'],
     description: [
       'RepVault is a workout logging app built around training data — not just tracking sets and reps, but giving athletes a meaningful view of their progress over time. The app visualizes strength trends, running data, and volume across training cycles so athletes and coaches can make informed decisions instead of guessing.',
-      'The project is being developed in close collaboration with Billy Cavalieri - a personal trainer, performance enhancement specialist, and triathlete with over 25 years of experience coaching athletes at every level - to ensure the tool reflects how serious athletes and coaches actually think about training data.',
+      'The project is being developed in close collaboration with Billy Cavalieri - a personal trainer, performance enhancement specialist, and triathlete - to ensure the tool reflects how serious athletes and coaches actually think about training data.',
     ],
     partner: {
       name: 'Billy Cavalieri',
