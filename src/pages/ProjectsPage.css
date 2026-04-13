@@ -75,7 +75,7 @@
   opacity: 0.85;
 }
 
-/* Badges — light variants for dark background */
+/* Badges — light variants scoped to projects page */
 
 .badge {
   display: inline-block;
@@ -87,12 +87,12 @@
   border-radius: 2px;
 }
 
-.badge-platform {
+.projects-page .badge-platform {
   background: rgba(245, 239, 224, 0.1);
   color: var(--color-sand);
 }
 
-.badge-status {
+.projects-page .badge-status {
   background: rgba(196, 98, 45, 0.18);
   color: #e8895c;
 }
