@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import billyImg from '../assets/billy.jpg'
 import './ProjectsPage.css'
 
 const projects = [
@@ -22,8 +23,9 @@ const projects = [
     ],
     partner: {
       name: 'Billy Cavalieri',
-      role: 'Industry Partner - Strength & Conditioning',
-      bio: 'Billy Cavalieri is a seasoned personal trainer, strength coach, and triathlete with over 25 years of dedicated weight lifting experience. His deep passion for the sport laid the foundation for a career built on discipline, knowledge, and results. Since 2008, Billy has channeled that expertise into coaching athletes, helping them unlock their potential and reach peak performance. His hands-on approach and decades of firsthand strengthening and conditioning experience give him a unique edge in understanding both the physical and mental demands of athletic development. Billy\'s commitment to the craft has made him a trusted mentor to athletes across all levels, from beginners finding their footing to competitors chasing elite goals.',
+      role: 'Personal Trainer & Performance Enhancement Specialist',
+      photo: billyImg,
+      bio: 'Billy Cavalieri is a seasoned personal trainer, strength coach, and triathlete with over 25 years of dedicated weight lifting experience. His deep passion for the sport laid the foundation for a career built on discipline, knowledge, and results. Since 2007, Billy has channeled that expertise into coaching athletes, helping them unlock their potential and reach peak performance. His hands-on approach and decades of firsthand strengthening and conditioning experience give him a unique edge in understanding both the physical and mental demands of athletic development. Billy\'s commitment to the craft has made him a trusted mentor to athletes across all levels, from beginners finding their footing to competitors chasing elite goals.',
     },
   },
   {
@@ -33,8 +35,6 @@ const projects = [
     description: [
       'AI Impact Index is a research and publishing platform documenting the quantifiable environmental and social costs of artificial intelligence. It is built for people who want to use AI responsibly and push for realistic, actionable reform.',
       'The platform aggregates data from academic institutions, regulatory bodies, and corporate sustainability disclosures to produce transparent, methodology-driven assessments of the AI industry\'s footprint - covering energy consumption, water usage, carbon emissions, labor practices, political influence, and misinformation risk.',
-      'Built in collaboration with a researcher with a legal background and an environmental lawyer and science communicator, the site pairs rigorous sourcing standards with accessible writing for a general audience. A companion newsletter translates dense findings into readable, actionable takeaways.',
-      'Spencer Studios designed and built the platform and leads on technical content - translating AI infrastructure concepts like inference costs, data center architecture, and hardware supply chains into language a non-specialist can evaluate and act on.',
     ],
     partner: null,
   },
@@ -54,6 +54,9 @@ function PartnerCard({ partner }) {
   return (
     <div className="partner-card">
       <div className="partner-card-header">
+        {partner.photo && (
+          <img src={partner.photo} alt={partner.name} className="partner-photo" />
+        )}
         <div>
           <h3 className="partner-name">{partner.name}</h3>
           <p className="partner-role">{partner.role}</p>
