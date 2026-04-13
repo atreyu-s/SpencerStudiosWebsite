@@ -15,6 +15,12 @@ const inProgress = [
     status: 'In Development',
   },
   {
+    name: 'AI Impact Index',
+    description: 'Research and publishing platform documenting the quantifiable environmental and social costs of AI — energy, water, carbon, labor, and misinformation risk.',
+    platforms: ['Web', 'Newsletter'],
+    status: 'In Development',
+  },
+  {
     name: 'BirdCam',
     description: 'Edge AI system for real-time bird species identification, from Raspberry Pi to web dashboard.',
     platforms: ['Raspberry Pi', 'ASP.NET', 'Blazor'],
