@@ -1,0 +1,212 @@
+.projects-page {
+  padding: 80px 40px;
+}
+
+.projects-page-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects-page-header {
+  margin-bottom: 72px;
+  border-bottom: 1px solid rgba(196, 98, 45, 0.25);
+  padding-bottom: 40px;
+}
+
+.projects-page-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: var(--color-ivory);
+  margin-bottom: 16px;
+}
+
+.projects-page-subtitle {
+  font-size: 1rem;
+  color: var(--color-sand);
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+/* Project detail entries */
+
+.project-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.project-detail {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 72px;
+}
+
+.project-detail:last-child {
+  border-bottom: none;
+}
+
+.project-detail-header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.project-detail-name {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  color: var(--color-ivory);
+}
+
+.project-detail-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-detail-body p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--color-sand);
+  opacity: 0.85;
+}
+
+/* Badges — light variants for dark background */
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.badge-platform {
+  background: rgba(245, 239, 224, 0.1);
+  color: var(--color-sand);
+}
+
+.badge-status {
+  background: rgba(196, 98, 45, 0.18);
+  color: #e8895c;
+}
+
+/* Partner bio card */
+
+.project-detail-partner {
+  margin-top: 40px;
+}
+
+.partner-section-label {
+  font-size: 0.75rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-sand);
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+
+.partner-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 28px 32px;
+}
+
+.partner-card-header {
+  margin-bottom: 16px;
+}
+
+.partner-name {
+  font-size: 1.5rem;
+  color: var(--color-ivory);
+  margin-bottom: 4px;
+}
+
+.partner-role {
+  font-size: 0.8rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-sand);
+  opacity: 0.6;
+}
+
+.partner-bio {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--color-sand);
+  opacity: 0.8;
+}
+
+/* Footer */
+
+.projects-page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(196, 98, 45, 0.25);
+}
+
+.back-link {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-sand);
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+
+.back-link:hover {
+  opacity: 1;
+}
+
+/* btn-terracotta (standalone, not dependent on Hero.css being loaded) */
+
+.btn-terracotta {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: var(--color-terracotta);
+  color: var(--color-ivory);
+  border: 2px solid var(--color-terracotta);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-terracotta:hover {
+  background: #b5561f;
+  border-color: #b5561f;
+}
+
+@media (max-width: 600px) {
+  .projects-page {
+    padding: 48px 24px;
+  }
+
+  .partner-card {
+    padding: 20px 20px;
+  }
+
+  .projects-page-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

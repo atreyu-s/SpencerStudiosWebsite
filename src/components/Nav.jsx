@@ -1,12 +1,15 @@
 import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Nav.css'
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
+  const { pathname } = useLocation()
+  const onHome = pathname === '/'
 
   return (
     <nav className="nav">
-      <a href="#hero" className="nav-logo">Spencer Studios LLC</a>
+      <Link to="/" className="nav-logo">Spencer Studios LLC</Link>
 
       <button
         className={`nav-hamburger${open ? ' nav-hamburger--open' : ''}`}
@@ -19,10 +22,10 @@ export default function Nav() {
       </button>
 
       <ul className={`nav-links${open ? ' nav-links--open' : ''}`}>
-        <li><a href="#about" onClick={() => setOpen(false)}>About</a></li>
-        <li><a href="#projects" onClick={() => setOpen(false)}>Work</a></li>
-        <li><a href="#consulting" onClick={() => setOpen(false)}>Consulting</a></li>
-        <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
+        <li><a href={onHome ? '#about' : '/#about'} onClick={() => setOpen(false)}>About</a></li>
+        <li><a href={onHome ? '#projects' : '/#projects'} onClick={() => setOpen(false)}>Work</a></li>
+        <li><a href={onHome ? '#consulting' : '/#consulting'} onClick={() => setOpen(false)}>Consulting</a></li>
+        <li><a href={onHome ? '#contact' : '/#contact'} onClick={() => setOpen(false)}>Contact</a></li>
       </ul>
     </nav>
   )

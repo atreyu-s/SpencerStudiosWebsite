@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Projects.css'
 import stoicImg from '../assets/stoic.png'
 
@@ -93,6 +94,10 @@ export default function Projects() {
         <h3 className="projects-group-title">Past Projects</h3>
         <div className="projects-grid">
           {pastProjects.map((p) => <ProjectCard key={p.name} project={p} />)}
+        </div>
+
+        <div className="projects-more">
+          <Link to="/projects" className="projects-more-link">View full project details &rarr;</Link>
         </div>
       </div>
     </section>

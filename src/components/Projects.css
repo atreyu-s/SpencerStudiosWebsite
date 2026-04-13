@@ -134,6 +134,25 @@
   opacity: 0.75;
 }
 
+.projects-more {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.projects-more-link {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-sand);
+  opacity: 0.65;
+  transition: opacity 0.2s;
+}
+
+.projects-more-link:hover {
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
   .projects {
     padding: 72px 24px;
