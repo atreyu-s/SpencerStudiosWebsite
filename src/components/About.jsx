@@ -15,10 +15,12 @@ export default function About() {
           <p>I left to build something of my own.</p>
           <p>
             Spencer Studios is my independent software studio, based out of Warren, Rhode Island.
-            Right now that means Barback, a professional cocktail reference tool for bartenders
-            currently in development. It also means consulting: I take on embedded systems, IoT,
-            and mobile projects for small teams who need focused technical help without the
-            overhead of a large firm.
+            Active projects span a few different spaces: Barback, a professional cocktail reference
+            tool for bartenders; RepVault, a workout logging app built around training data
+            visualization; and AI Impact Index, a research and publishing platform documenting the
+            real environmental and social costs of artificial intelligence. It also means consulting:
+            I take on embedded systems, IoT, and mobile projects for small teams who need focused
+            technical help without the overhead of a large firm.
           </p>
           <p>
             The through-line is craft. Whether it's firmware for an ESP32, a React Native app, or a
