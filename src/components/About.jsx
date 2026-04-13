@@ -7,7 +7,7 @@ export default function About() {
         <h2 className="about-title">About</h2>
         <div className="about-body">
           <p>
-            I'm Trey Spencer — a software engineer and Microsoft Certified Professional full-stack developer with experience across mobile, IoT, and real-time
+            I'm Trey Spencer - a software engineer and Microsoft Certified Professional full-stack developer with experience across mobile, IoT, and real-time
             systems. I spent five years at NAVSEA building software for underwater autonomous
             vehicles: real-time radio handling, multiprocessing architectures, ROS middleware on
             Nvidia Jetson hardware. Serious work, seriously constrained environments.
@@ -22,7 +22,7 @@ export default function About() {
           </p>
           <p>
             The through-line is craft. Whether it's firmware for an ESP32, a React Native app, or a
-            control system for a greenhouse — I care about building things that actually work, that
+            control system for a greenhouse - I care about building things that actually work, that
             are worth the time it took to make them.
           </p>
         </div>

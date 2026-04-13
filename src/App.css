@@ -1,4 +1,4 @@
-/* App-level layout — section spacing handled per component */
+/* App-level layout - section spacing handled per component */
 
 main {
   padding-top: var(--nav-height);

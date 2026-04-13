@@ -16,7 +16,7 @@ const inProgress = [
   },
   {
     name: 'AI Impact Index',
-    description: 'Research and publishing platform documenting the quantifiable environmental and social costs of AI — energy, water, carbon, labor, and misinformation risk.',
+    description: 'Research and publishing platform documenting the quantifiable environmental and social costs of AI - energy, water, carbon, labor, and misinformation risk.',
     platforms: ['Web', 'Newsletter'],
     status: 'In Development',
   },
@@ -40,7 +40,7 @@ const pastProjects = [
   },
   {
     name: 'Automated Greenhouse',
-    description: 'Automated climate control system for a commercial greenhouse — sensor integration, actuation, and remote monitoring.',
+    description: 'Automated climate control system for a commercial greenhouse - sensor integration, actuation, and remote monitoring.',
     platforms: ['Embedded', 'IoT'],
     status: 'Consulting',
   },
