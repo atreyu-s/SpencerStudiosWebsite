@@ -8,24 +8,28 @@ const inProgress = [
     description: 'Professional cocktail reference for bartenders.',
     platforms: ['iOS', 'Android'],
     status: 'In Development',
+    detailHref: '/projects#barback-pro',
   },
   {
     name: 'RepVault',
     description: 'Workout logging with training data visualization across strength and running.',
     platforms: ['iOS', 'Android'],
     status: 'In Development',
+    detailHref: '/projects#repvault',
   },
   {
     name: 'AI Impact Index',
     description: 'Research and publishing platform documenting the quantifiable environmental and social costs of AI - energy, water, carbon, labor, and misinformation risk.',
     platforms: ['Web', 'Newsletter'],
     status: 'In Development',
+    detailHref: '/projects#ai-impact-index',
   },
   {
     name: 'BirdCam',
     description: 'Edge AI system for real-time bird species identification, from Raspberry Pi to web dashboard.',
     platforms: ['Raspberry Pi', 'ASP.NET', 'Blazor'],
     status: 'Portfolio Project',
+    detailHref: '/projects#birdcam',
   },
 ]
 
@@ -67,13 +71,16 @@ function ProjectCard({ project }) {
         </div>
         </div>
       </div>
-      {project.links && (
+      {(project.links || project.detailHref) && (
         <div className="project-links">
-          {project.links.map((link) => (
+          {project.links && project.links.map((link) => (
             <a key={link.label} href={link.href} className="project-link" target="_blank" rel="noopener noreferrer">
               {link.label} &rarr;
             </a>
           ))}
+          {project.detailHref && (
+            <Link to={project.detailHref} className="project-link">Details &rarr;</Link>
+          )}
         </div>
       )}
     </div>

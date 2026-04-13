@@ -5,6 +5,7 @@ import './ProjectsPage.css'
 const projects = [
   {
     name: 'Barback Pro',
+    slug: 'barback-pro',
     status: 'In Development',
     platforms: ['iOS', 'Android'],
     description: [
@@ -16,6 +17,7 @@ const projects = [
   },
   {
     name: 'RepVault',
+    slug: 'repvault',
     status: 'In Development',
     platforms: ['iOS', 'Android'],
     description: [
@@ -31,6 +33,7 @@ const projects = [
   },
   {
     name: 'AI Impact Index',
+    slug: 'ai-impact-index',
     status: 'In Development',
     platforms: ['Web', 'Newsletter'],
     description: [
@@ -41,6 +44,7 @@ const projects = [
   },
   {
     name: 'BirdCam',
+    slug: 'birdcam',
     status: 'Portfolio Project',
     platforms: ['Raspberry Pi', 'ASP.NET', 'Blazor'],
     description: [
@@ -70,7 +74,7 @@ function PartnerCard({ partner }) {
 
 function ProjectDetail({ project }) {
   return (
-    <div className="project-detail">
+    <div className="project-detail" id={project.slug}>
       <div className="project-detail-header">
         <h2 className="project-detail-name">{project.name}</h2>
         <div className="project-detail-badges">
