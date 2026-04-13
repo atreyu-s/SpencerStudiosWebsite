@@ -9,7 +9,7 @@ const inProgress = [
     status: 'In Development',
   },
   {
-    name: 'Workout Sheet',
+    name: 'RepVault',
     description: 'Workout logging with training data visualization across strength and running.',
     platforms: ['iOS', 'Android'],
     status: 'In Development',
