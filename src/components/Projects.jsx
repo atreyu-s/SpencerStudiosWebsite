@@ -12,7 +12,7 @@ const inProgress = [
   },
   {
     name: 'RepVault',
-    description: 'Workout logging with training data visualization across strength and running.',
+    description: 'Workout logging with training data visualization across strength and cardio, developed alongside a personal trainer.',
     platforms: ['iOS', 'Android'],
     status: 'In Development',
     detailHref: '/projects#repvault',
