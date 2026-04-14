@@ -109,6 +109,8 @@ export default function ProjectsPage() {
     if (hash) {
       const el = document.getElementById(hash.slice(1))
       if (el) el.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      window.scrollTo(0, 0)
     }
   }, [hash])
   return (
