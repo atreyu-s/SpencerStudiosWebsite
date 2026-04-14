@@ -5,7 +5,7 @@ import stoicImg from '../assets/stoic.png'
 const inProgress = [
   {
     name: 'Barback Pro',
-    description: 'Cocktail reference app for working bartenders and advanced home users — searchable recipes, technique notes, and substitution guidance, developed alongside a professional bar owner.',
+    description: 'Cocktail reference app for working bartenders and advanced home users, with searchable recipes, technique notes, and substitution guidance, developed alongside a professional bar owner.',
     platforms: ['iOS', 'Android'],
     status: 'In Development',
     detailHref: '/projects#barback-pro',
